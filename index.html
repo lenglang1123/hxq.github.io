@@ -91,6 +91,10 @@
         nr = nr.replace(/交互/g, "<span>$&</span>")
         nr = nr.replace(/sm/g, "<text>$&</text>")
         nr = nr.replace(/SΜ/g, "<text>$&</text>")
+        nr = nr.replace(/S Μ/g, "<text>$&</text>")
+        nr = nr.replace(/s m/g, "<text>$&</text>")
+        nr = nr.replace(/S m/g, "<text>$&</text>")
+        nr = nr.replace(/s M/g, "<text>$&</text>")
         nr = nr.replace(/毛贼/g, "<span>$&</span>")
         nr = nr.replace(/宇宙/g, "<span>$&</span>") //宇宙毁灭是敏感词,解决宇宙即可
         nr = nr.replace(/气枪/g, "<span>$&</span>")
